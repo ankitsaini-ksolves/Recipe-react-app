@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
       <div className="container">
         <Filter />
-        <RecipeForm />
+        {/* <RecipeForm /> */}
         <RecipeList />
       </div>
     </div>

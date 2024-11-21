@@ -27,4 +27,13 @@ export const fetchRecipes = () => async (dispatch) => {
     type: "FILTER_BY_CATEGORY",
     payload: category,
   });
+
+  export const openModal = (recipe = null) => ({
+    type: "OPEN_MODAL",
+    payload: recipe,
+  });
+  
+  export const closeModal = () => ({
+    type: "CLOSE_MODAL",
+  });
   
