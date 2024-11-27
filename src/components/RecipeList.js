@@ -39,7 +39,7 @@ const RecipeList = () => {
   
     return (
     <div>
-    <button className="btn btn-success m-2" onClick={() => dispatch(openModal())}>Add Recipe</button>    
+    <button className="btn btn-success mt-2 ms-3" onClick={() => dispatch(openModal())}>Add Recipe</button>    
       <div className="container mt-4">
         <h2 className="text-center mb-4">Recipes</h2>
         <div className="row">
